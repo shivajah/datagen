@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+       function SomeDeleteRowFunction(o) {
+         var p=o.parentNode.parentNode;
+         p.parentNode.removeChild(p);
+       }
+
+       $(document).ready(function() {
+           $("#mytable").html(function(){
+                return {
+                    result: htmlUtil.HtmlUtil.addAttributeToSchema()
+                };
+           });
+         $("#addrows").click(function () {
+           $("#mytable").each(function () {
+             var tds = '<tr>';
+             jQuery.each($('tr:last td', this), function () {
+                tds += '<td>' + $(this).html() + '</td>';
+             });
+             tds += '</tr>';
+             if ($('tbody', this).length > 0) {
+                 $('tbody', this).append(tds);
+             } else {
+                $(this).append(tds);
+             }
+           });
+         });
+       });
+    </script>
+    </head>
+    <body><a href="#" id="addrows"> Add New Field </a>
+    <form id="queryform" class="form-horizontal" method="get" action="/echoGet">
+         <table id="mytable"></table>
+        Number of records: <input type="text" name="noRows" placeholder="1000"> <input type="submit" value="Submit"></form>
+    </body>
+</html>
