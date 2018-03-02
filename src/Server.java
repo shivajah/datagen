@@ -19,6 +19,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
+import schema.Domain.Domain;
 import schema.Schema;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -37,6 +38,7 @@ public class Server {
 //        server.start();
             Parser parser = new Parser();
             Schema schema = parser.parseConfigFile();
+            List<Domain> domains = parser.parseDomain();
     }
 
     static class MyHandler implements HttpHandler {

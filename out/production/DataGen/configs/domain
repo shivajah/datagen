@@ -1,2 +1,2 @@
 String : job = {"physician","economist","developer","biologist","accountant","lawyer","pharmacist","teacher","trainer","student"}
-Number :  hundred =<1,100>
+Integer :  hundred =<1,100>
