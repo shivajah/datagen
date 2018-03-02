@@ -1,4 +1,4 @@
-package Schema;
+package schema;
 
 /**
  * Created by shiva on 3/1/18.

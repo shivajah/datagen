@@ -9,11 +9,11 @@ import java.util.Map;
  */
 public class DataTypes {
 
-    public static enum DataType{
+    public  enum DataType{
         BOOLEAN,STRING,TINYINT,SMALLINT,INTEGER,BIGINT,FLOAT,
         DOUBLE,BINARY,POINT,LINE,RECTANGLE,CIRCLE,POLYGON,DATE,
         TIME,DATETIME,DURATION,INTERVAL,UUID,OBJECT,
-        ARRAY,MULTISET
+        ARRAY,MULTISET,UNKNOWN
     }
 
 public static Map<String,String> toMap() {

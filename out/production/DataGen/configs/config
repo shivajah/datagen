@@ -21,6 +21,8 @@
         <field position="2">
             <name>name</name>
             <type>String</type>
+            <length>100</length>
+            <order>random</order>
             <domain>jobs</domain>
             <declared>true</declared>
             <optional>

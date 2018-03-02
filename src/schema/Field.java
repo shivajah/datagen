@@ -1,11 +1,11 @@
-package Schema;
+package schema;
 
 import Constants.DataTypes;
 
 /**
  * Created by shiva on 3/1/18.
  */
-public abstract class Field {
+public class Field {
     private int position;
     private DataTypes.DataType type;
     private String name;
