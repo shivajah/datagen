@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataGen.iml" filepath="$PROJECT_DIR$/DataGen.iml" />
+      <module fileurl="file://$USER_HOME$/WDataGen/WDataGen.iml" filepath="$USER_HOME$/WDataGen/WDataGen.iml" />
     </modules>
   </component>
 </project>

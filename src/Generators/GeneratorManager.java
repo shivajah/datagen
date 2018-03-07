@@ -58,24 +58,24 @@ private List<IGenerator> getGenerators(){
             DataTypes.DataType t = DataTypes.DataType.valueOf(type);
             IGenerator generator = null;
             switch (t){
-                case BOOLEAN:
-                    generator = new BooleanGenerator(rowNumbers);
-                    break;
+//                case BOOLEAN:
+//                    generator = new BooleanGenerator(rowNumbers);
+//                    break;
                 case STRING:
                     generator = new StringGenerator();
                     break;
                 case INTEGER:
-                    generator = new IntegerGenerator(parameters,index);
+                    generator = new NumberGenerator(parameters,index);
                     break;
-                case TINYINT:
-                    generator = new TinyIntGenerator(parameters,index);
-                    break;
-                case BIGINT:
-                    generator = new BigIntGenerator(parameters,index);
-                    break;
-                case SMALLINT:
-                    generator = new SmallIntGenerator(parameters,index);
-                    break;
+//                case TINYINT:
+//                    generator = new TinyIntGenerator(parameters,index);
+//                    break;
+//                case BIGINT:
+//                    generator = new BigIntGenerator(parameters,index);
+//                    break;
+//                case SMALLINT:
+//                    generator = new SmallIntGenerator(parameters,index);
+//                    break;
                 default:
                     System.out.println("Under Construction!");
                     break;

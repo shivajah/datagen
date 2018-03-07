@@ -1,6 +1,8 @@
 package schema;
 
 import Constants.DataTypes;
+import Constants.Order;
+import schema.Domain.Domain;
 
 /**
  * Created by shiva on 3/1/18.
@@ -12,7 +14,8 @@ public class Field {
     private boolean declared;
     private Optional optional;
     private Nullable nullable;
-    //Range & Domain
+    private Domain domain;
+    private Order.order order;
 
     public int getPosition() {
         return position;
@@ -61,6 +64,24 @@ public class Field {
     public void setNullable(Nullable nullable) {
         this.nullable = nullable;
     }
+
+    public Domain getDomain() {
+        return domain;
+    }
+
+    public void setDomain(Domain domain) {
+        this.domain = domain;
+    }
+
+
+    public Order.order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order.order order) {
+        this.order = order;
+    }
+
 
 }
 

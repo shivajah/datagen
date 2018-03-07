@@ -4,21 +4,21 @@ package schema.Domain;
  * Created by shiva on 3/2/18.
  */
 public class Range{
-    private Object from;
-    private Object to;
-    public Object getFrom() {
+    private String from;
+    private String to;
+    public String getFrom() {
         return from;
     }
 
-    public void setFrom(Object from) {
+    public void setFrom(String from) {
         this.from = from;
     }
 
-    public Object getTo() {
+    public String getTo() {
         return to;
     }
 
-    public void setTo(Object to) {
+    public void setTo(String to) {
         this.to = to;
     }
 

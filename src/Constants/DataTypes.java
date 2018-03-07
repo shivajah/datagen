@@ -1,6 +1,4 @@
 package Constants;
-
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -10,10 +8,7 @@ import java.util.Map;
 public class DataTypes {
 
     public  enum DataType{
-        BOOLEAN,STRING,TINYINT,SMALLINT,INTEGER,BIGINT,FLOAT,
-        DOUBLE,BINARY,POINT,LINE,RECTANGLE,CIRCLE,POLYGON,DATE,
-        TIME,DATETIME,DURATION,INTERVAL,UUID,OBJECT,
-        ARRAY,MULTISET,UNKNOWN
+        STRING,INTEGER
     }
 
 public static Map<String,String> toMap() {

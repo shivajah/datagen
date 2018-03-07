@@ -8,7 +8,7 @@ import java.util.List;
  */
 public abstract class Domain {
     public enum Type{VALUE,RANGE}
-    private List<Object> values;
+    private List<String> values;
     private Range range;
     private String name;
     public String getName() {
@@ -19,11 +19,11 @@ public abstract class Domain {
         this.name = name;
     }
 
-    public List<Object> getValues() {
+    public List<String> getValues() {
         return values;
     }
 
-    public void setValues(List<Object> values) {
+    public void setValues(List<String> values) {
         this.values = values;
     }
 

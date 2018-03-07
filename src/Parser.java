@@ -1,4 +1,5 @@
 import Constants.DataTypes;
+import Constants.Order;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -15,8 +16,10 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by shiva on 3/1/18.
@@ -24,17 +27,34 @@ import java.util.List;
 public class Parser {
     public Schema parseConfigFile(){
         Schema schema  =  new Schema();
+        Map<String, Domain> domains = parseDomain();
         try {
-            File inputFile = new File("./src/configs/config");
+            File inputFile = new File("./src/configs/shivsconfig");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc =  dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
-            System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-            NodeList nList = doc.getElementsByTagName("field");
+            //get cardinality
+            NodeList nList = doc.getElementsByTagName("dataset");
+            Node nNode = nList.item(0);
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element) nNode;
+                schema.setCardinality(Integer.parseInt(getElement(element,"cardinality")));
+                schema.setDatasetName(getElement(element,"name"));
+            }
+            //get file info
+            nList = doc.getElementsByTagName("file");
+            nNode = nList.item(0);
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element) nNode;
+                schema.setFileName(getElement(element,"name"));
+                schema.setNumOfPartitions(Integer.parseInt(getElement(element,"partitions")));
+            }
+            //getFields
+             nList = doc.getElementsByTagName("field");
             Field field;
             for (int temp = 0; temp < nList.getLength(); temp++) {
-                Node nNode = nList.item(temp);
+                 nNode = nList.item(temp);
                 field = new Field();
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
@@ -42,9 +62,21 @@ public class Parser {
                     field.setName(getElement(eElement,"name"));
                     String t = getElement(eElement,"type");
                     DataTypes.DataType type = t.equalsIgnoreCase("string")? DataTypes.DataType.STRING :(t.equalsIgnoreCase("integer")?
-                            DataTypes.DataType.INTEGER: DataTypes.DataType.UNKNOWN);
+                            DataTypes.DataType.INTEGER: null);
                     field.setType(type);
                     field.setDeclared(getElement(eElement,"declared").equalsIgnoreCase("true"));
+                    String domainst = getElement(eElement,"domain");
+                    if(!domains.containsKey(domainst)){
+                        throw new IllegalArgumentException("Invalid domain name has been entered.");
+                    }
+                    field.setDomain(domains.get(domainst));
+                    String orderst =  getElement(eElement,"order");
+                    Order.order order = orderst.equalsIgnoreCase("random")? Order.order.RANDOM:(orderst.equalsIgnoreCase("sequential")?
+                            Order.order.SEQUENTIAL:null);
+                    field.setOrder(order);
+//                    if(!schema.getFields().isEmpty()&&schema.getFields().get(field.getPosition())!= null){
+//                        throw new IllegalArgumentException("Multiple fields have been selected for the same position in the schema.");
+//                    }
                     schema.getFields().add(field);
                 }
             }
@@ -54,16 +86,17 @@ public class Parser {
 
         return schema;
     }
-    //TODO
-    public List<Domain> parseDomain(){
-        List<Domain> domains = new LinkedList<>();
+
+    public Map<String,Domain> parseDomain(){
+        Map<String,Domain> domains = new HashMap<>();
         try {
             File inputFile = new File("./src/configs/domain");
             FileReader fileReader = new FileReader(inputFile);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                domains.add(parse(line));
+                Domain domain = parse(line);
+                domains.put(domain.getName(),domain);
             }
 
         } catch (Exception e) {
@@ -106,7 +139,7 @@ public class Parser {
             domain.setRange(range);
         }
         else if(domain.getType() == Domain.Type.VALUE){
-            List<Object> vals = new LinkedList<>();
+            List<String> vals = new LinkedList<>();
             for(String s:splits){
                 vals.add(s);
             }
