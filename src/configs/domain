@@ -1,2 +1,0 @@
-String : job = {physician,economist,developer,biologist,accountant,lawyer,pharmacist,teacher,trainer,student}
-Integer :  hundred =<1,100>

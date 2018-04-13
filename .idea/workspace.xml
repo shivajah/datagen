@@ -2,12 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8fa09ae-4458-419c-b629-eab19367b683" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Server.java" afterPath="$PROJECT_DIR$/src/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/configs/domain" afterPath="$PROJECT_DIR$/src/configs/domain" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/schema/Domain/StringDomain.java" afterPath="$PROJECT_DIR$/src/schema/Domain/StringDomain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Constants/DataTypes$DataType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Constants/DataTypes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Constants/Order$order.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Constants/Order.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/GeneratorManager$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/GeneratorManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/IGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/NumberGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/StringGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/wisconsingenerators/WisconsinGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Generators/wisconsingenerators/WisconsinStringGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Output/OutputGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Output/WisconsinOutputGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/Dataset.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/File.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/PField.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/Parser$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/Parser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Parser/SchemaForParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/Server.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/Domain$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/Domain$Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/IntegerDomain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/Range.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/StringDomain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Field.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Schema.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/SchemaForParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/datagen-driver-jar-with-dependencies.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/datagen-driver.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/parser/ConfigParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/parser/Dataset.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/parser/Field.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/parser/File.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/parser/SchemaForParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/Datagen.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Constants/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/IGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/NumberGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/StringGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinStringGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/WisconsinOutputGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/feed.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Dataset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/File.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/PField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/SchemaForParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/domain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/shivaconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wdomain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/Range.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Field.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Schema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/SchemaForParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/src/test/java/com/datagen/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datagen/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/config/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WDataGen/config/domain" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Constants/DataTypes$DataType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Constants/DataTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/BigIntGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/BooleanGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/GeneratorManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/GeneratorManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/IGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/IntegerGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/NumberGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/SmallIntGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/StringGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Generators/TinyIntGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Output/OutputGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Output/data/file.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Server$GetHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Server$MyHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/Server.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/configs/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/configs/domain" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/htmlUtil/HtmlUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/htmlUtil/cssFile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/libraries/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/Domain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/Domain$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/IntegerDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/Range.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/StringDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Field.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Nullable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Optional.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Schema.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataGen/webui/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/BigIntGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/BooleanGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/IGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/IntegerGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/NumberGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/SmallIntGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/StringGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generators/TinyIntGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Output/data/file.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Server.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configs/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configs/domain" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/htmlUtil/HtmlUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/htmlUtil/cssFile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libraries/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/schema/Domain/Range.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/schema/Field.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/schema/Nullable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/schema/Optional.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/schema/Schema.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webui/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/Domain/Domain.class" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/Domain/Domain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/DataGen/schema/StringField.class" afterPath="$PROJECT_DIR$/Datagen/target/classes/com/datagen/schema/StringField.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Constants/DataTypes.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Constants/DataTypes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Generators/GeneratorManager.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/GeneratorManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Output/OutputGenerator.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/OutputGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/schema/Domain/Domain.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/Domain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/schema/Domain/IntegerDomain.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/IntegerDomain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/schema/Domain/StringDomain.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/StringDomain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/schema/StringField.java" afterPath="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/StringField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataGen.iml" afterPath="$PROJECT_DIR$/DataGen.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Datagen/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +162,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DataGen$datagen.coverage" NAME="datagen Coverage Results" MODIFIED="1519592067046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DataGen$datagen.coverage" NAME="datagen Coverage Results" MODIFIED="1521550660208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,118 +173,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <file leaf-file-name="wconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4500#4501#0" expanded="true" />
-                <element signature="e#4575#4576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/configs/config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="3124">
+              <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/Domain/Domain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataTypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constants/DataTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/StringField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringDomain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/Domain/StringDomain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="domain" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/configs/domain">
+      <file leaf-file-name="feed.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/feed.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegerDomain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/Domain/IntegerDomain.java">
+      <file leaf-file-name="WisconsinOutputGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/WisconsinOutputGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="283">
+              <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,11 +223,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>64</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -170,51 +234,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/libraries/jquery.js" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateBoolean.java" />
-        <option value="$PROJECT_DIR$/src/Constants/NumberRanges.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateBigInt.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateNumber.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateSmallInt.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateTinyInt.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateInteger.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GenerateString.java" />
-        <option value="$PROJECT_DIR$/src/Generators/BooleanGenerator.java" />
-        <option value="$PROJECT_DIR$/src/webui/index.html" />
+        <option value="$PROJECT_DIR$/src/Generators/wisconsingenerators/WisconsinGenerator.java" />
+        <option value="$PROJECT_DIR$/src/Generators/wisconsingenerators/WisconsinNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/Output/OutputGenerator.java" />
-        <option value="$PROJECT_DIR$/src/htmlUtil/cssFile.css" />
-        <option value="$PROJECT_DIR$/src/Generators/NumberGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Generators/IntegerGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Generators/SmallIntGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Generators/TinyIntGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Generators/BigIntGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Generators/StringGenerator.java" />
-        <option value="$PROJECT_DIR$/src/htmlUtil/HtmlUtil.java" />
-        <option value="$PROJECT_DIR$/src/Generators/GeneratorManager.java" />
-        <option value="$PROJECT_DIR$/src/configs/config" />
-        <option value="$PROJECT_DIR$/src/Schema/Nullable.java" />
-        <option value="$PROJECT_DIR$/src/Schema/Optional.java" />
-        <option value="$PROJECT_DIR$/src/Schema/Field.java" />
-        <option value="$PROJECT_DIR$/src/Schema/Domain/StringDomain.java" />
-        <option value="$PROJECT_DIR$/src/Schema/StringField.java" />
-        <option value="$PROJECT_DIR$/src/configs/domains" />
-        <option value="$PROJECT_DIR$/src/schema/Field.java" />
-        <option value="$PROJECT_DIR$/src/Constants/DataTypes.java" />
-        <option value="$PROJECT_DIR$/src/schema/Schema.java" />
-        <option value="$PROJECT_DIR$/src/schema/Domain/Range.java" />
-        <option value="$PROJECT_DIR$/src/schema/Domain/StringDomain.java" />
-        <option value="$PROJECT_DIR$/src/schema/Domain/IntegerDomain.java" />
+        <option value="$PROJECT_DIR$/src/Output/WisconsinOutputGenerator.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
-        <option value="$PROJECT_DIR$/src/schema/Domain/Domain.java" />
+        <option value="$PROJECT_DIR$/src/configs/wconfig" />
         <option value="$PROJECT_DIR$/src/Parser.java" />
-        <option value="$PROJECT_DIR$/src/configs/domain" />
+        <option value="$PROJECT_DIR$/src/schema/Field.java" />
+        <option value="$PROJECT_DIR$/src/schema/SchemaForParser.java" />
+        <option value="$USER_HOME$/WDataGen/src/parser/Dataset.java" />
+        <option value="$USER_HOME$/WDataGen/src/parser/File.java" />
+        <option value="$USER_HOME$/WDataGen/src/parser/Field.java" />
+        <option value="$PROJECT_DIR$/src/configs/wconfig.json" />
+        <option value="$USER_HOME$/WDataGen/src/parser/SchemaForParser.java" />
+        <option value="$PROJECT_DIR$/src/Parser/Dataset.java" />
+        <option value="$PROJECT_DIR$/src/Parser/Parser.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/Server.java" />
+        <option value="$PROJECT_DIR$/Datagen/pom.xml" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/File.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Field.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Dataset.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/OutputGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/Domain.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/IntegerDomain.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/Range.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Domain/StringDomain.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Nullable.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Optional.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Schema.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/StringField.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/SchemaForParser.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Constants/DataTypes.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Constants/Order.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/StringGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/NumberGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/IGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/GeneratorManager.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/test/java/com/datagen/AppTest.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/SchemaForParser.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinStringGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/PField.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Parser.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_6.txt" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Field.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Server.java" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/feed.txt" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig.json" />
+        <option value="$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/WisconsinOutputGenerator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1173" />
+    <option name="y" value="2" />
+    <option name="width" value="1440" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -234,8 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,6 +333,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,7 +365,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -290,15 +459,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schema" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,7 +493,167 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wisconsingenerators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataGen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datagen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datagen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -323,13 +664,17 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="Application.datagen">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -538,16 +883,16 @@
     </configuration>
     <configuration default="false" name="datagen" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="MAIN_CLASS_NAME" value="com.datagen.Server" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="wisconsin" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataGen" />
+      <module name="Datagen" />
       <envs />
       <method />
     </configuration>
@@ -568,40 +913,31 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
+    <frame x="0" y="2" width="1440" height="896" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35956416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22257721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27896994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24948665" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31267345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3047375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -609,37 +945,37 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.486747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2752881" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3056266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3828425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26466382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014066496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -650,37 +986,58 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Generators/StringGenerator.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/StringGenerator.java</url>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/IGenerator.java</url>
+          <line>107</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser.java</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/IGenerator.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser.java</url>
-          <line>75</line>
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Parser.java</url>
+          <line>167</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Parser.java</url>
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.java</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinStringGenerator.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/WisconsinOutputGenerator.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -689,225 +1046,232 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Generators/NumberGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/libraries/jquery.js">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Nullable.java" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Optional.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="1" column="86841" lean-forward="false" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
+        <state relative-caret-position="193">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Byte.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="193">
+          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constants/NumberRanges.java" />
-    <entry file="file://$PROJECT_DIR$/src/Generators/BooleanGenerator.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/datatest2.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/datatest2_1.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/datatest_1.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/datatest.txt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="167">
+          <caret line="385" column="15" lean-forward="false" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generators/IGenerator.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_1.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/NumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="13">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_30.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_31.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/PField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="1005" column="19" lean-forward="false" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        <state relative-caret-position="396">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/webui/index.html">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="106">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#10503#10518#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/htmlUtil/cssFile.css">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Parser/SchemaForParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_6.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test.txt" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_2.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_3.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_4.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_5.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/test_6.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/TENKTUP1.adm" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/javafx-src.zip!/javafx/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_4.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Generators/BigIntGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
+            <element signature="e#0#3158#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#1415#1416#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generators/TinyIntGenerator.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEMILTUP1_1p_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEMILTUP1_1p_0.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEMILTUP1p_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEMILTUP1p_0.adm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        <state relative-caret-position="-425">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEMILTUP1p_2.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEKMILTUP1p_0.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/ONEKMILTUP1p_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/schema/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-            <element signature="e#319#320#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#1388#1389#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
+            <element signature="e#1489#1490#0" expanded="false" />
+            <element signature="e#1532#1533#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+            <element signature="e#1611#1612#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1701#1702#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1808#1809#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1888#1889#0" expanded="false" />
+            <element signature="e#1928#1929#0" expanded="false" />
+            <element signature="e#1962#1963#0" expanded="false" />
+            <element signature="e#1991#1992#0" expanded="false" />
+            <element signature="e#2035#2036#0" expanded="false" />
+            <element signature="e#2071#2072#0" expanded="false" />
+            <element signature="e#2109#2110#0" expanded="false" />
+            <element signature="e#2137#2138#0" expanded="false" />
+            <element signature="e#2184#2185#0" expanded="false" />
+            <element signature="e#2218#2219#0" expanded="false" />
+            <element signature="e#2254#2255#0" expanded="false" />
+            <element signature="e#2289#2290#0" expanded="false" />
+            <element signature="e#2455#2456#0" expanded="false" />
+            <element signature="e#2486#2487#0" expanded="false" />
+            <element signature="e#2535#2536#0" expanded="false" />
+            <element signature="e#2575#2576#0" expanded="false" />
+            <element signature="e#2610#2611#0" expanded="false" />
+            <element signature="e#2641#2642#0" expanded="false" />
+            <element signature="e#2690#2691#0" expanded="false" />
+            <element signature="e#2730#2731#0" expanded="false" />
+            <element signature="e#2759#2760#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2826#2827#0" expanded="false" />
+            <element signature="e#2860#2861#0" expanded="false" />
+            <element signature="e#2892#2893#0" expanded="false" />
+            <element signature="e#2923#2924#0" expanded="false" />
+            <element signature="e#2968#2969#0" expanded="false" />
+            <element signature="e#3008#3009#0" expanded="false" />
+            <element signature="e#3039#3040#0" expanded="false" />
+            <element signature="e#3066#3067#0" expanded="false" />
+            <element signature="e#3107#3108#0" expanded="false" />
+            <element signature="e#3139#3140#0" expanded="false" />
+            <element signature="e#3169#3170#0" expanded="false" />
+            <element signature="e#3195#3196#0" expanded="false" />
+            <element signature="e#3234#3235#0" expanded="false" />
+            <element signature="e#3264#3265#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generators/SmallIntGenerator.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/TENKTUP1p_0.adm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_7.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_5.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/tempFile_3.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/OutputGenerator.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generators/IntegerGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generators/NumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_9.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_10.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_11.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_4.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Generators/StringGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="-179">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile_3.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Output/data/myfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Generators/GeneratorManager.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/GeneratorManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        <state relative-caret-position="1166">
+          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output/data/file.txt">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/testp_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/OutputGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="198">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/htmlUtil/HtmlUtil.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinStringGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/org/w3c/dom/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+        <state relative-caret-position="-8">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Nullable.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="503">
+          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Optional.java">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Generators/wisconsingenerators/WisconsinNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="129">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/domains.txt">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/testp_0.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/testzzp_1.adm" />
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/testzzp_0.adm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -915,171 +1279,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Schema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constants/DataTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/StringField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Domain/IntegerDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Domain/StringDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Domain/Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/Domain/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4500#4501#0" expanded="true" />
-            <element signature="e#4575#4576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/domain">
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/data/feed.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/configs/wconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datagen/src/main/java/com/datagen/Output/WisconsinOutputGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
           <folding />
         </state>
       </provider>
