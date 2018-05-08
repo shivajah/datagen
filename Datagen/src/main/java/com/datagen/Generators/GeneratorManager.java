@@ -64,6 +64,15 @@ private List<IGenerator> getGenerators(){
                 case INTEGER:
                     generator = new NumberGenerator(parameters,index);
                     break;
+//                case TINYINT:
+//                    generator = new TinyIntGenerator(parameters,index);
+//                    break;
+//                case BIGINT:
+//                    generator = new BigIntGenerator(parameters,index);
+//                    break;
+//                case SMALLINT:
+//                    generator = new SmallIntGenerator(parameters,index);
+//                    break;
                 default:
                     System.out.println("Under Construction!");
                     break;

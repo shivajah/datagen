@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataGen.iml" filepath="$PROJECT_DIR$/DataGen.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Datagen/Datagen.iml" filepath="$PROJECT_DIR$/Datagen/Datagen.iml" />
+=======
+>>>>>>> 4b5a1f7833006ebcb4f821cdef2202d5a49b16b5
       <module fileurl="file://$USER_HOME$/WDataGen/WDataGen.iml" filepath="$USER_HOME$/WDataGen/WDataGen.iml" />
     </modules>
   </component>
