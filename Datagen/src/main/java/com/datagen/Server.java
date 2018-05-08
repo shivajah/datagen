@@ -56,25 +56,5 @@ public class Server {
                 System.out.println("maxRecordSize : "+outputGenerators.getMaxRecordLength()+" bytes");
             }
         }
-//        else if (algo.equalsIgnoreCase("shiva's")) {
-//            Parser parser = new Parser();
-//            Schema schema = parser.parseConfigFile();
-//            for (Field field : schema.getFields()) {
-//                if (field.getType() == DataTypes.DataType.INTEGER) {
-//                    NumberGenerator ng = new NumberGenerator(field);
-//                    int len = ng.getNumberOfValuesInDomain();
-//                    for (int i = 0; i < len; i++) {
-//                        System.out.println(ng.nextNumber());
-//                    }
-//                } else if (field.getType() == DataTypes.DataType.STRING) {
-//                    StringGenerator sg = new StringGenerator(field);
-//                    int len = sg.getNumberOfValuesInDomain();
-//                    for (int i = 0; i < len; i++) {
-//                        System.out.println(sg.nextString());
-//                    }
-//                }
-//
-//            }
-//        }
     }
 }

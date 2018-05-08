@@ -108,7 +108,7 @@ public class WisconsinOutputGenerator {
 
                     }
                     record = record + "}\n";
-                    System.out.println(record);
+                    //System.out.println(record);
                     write(record,readerId);
                     if (size > maxRecordLength) {
                         maxRecordLength = size;

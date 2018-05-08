@@ -2,7 +2,7 @@
   {
     "dataset": {
       "name": "test",
-      "cardinality":10
+      "cardinality":20
     },
     "file":{
       "name":"test.adm",
@@ -27,7 +27,7 @@
         "optional":false,
         "missings":0,
         "nullable":false,
-        "nulls":5
+        "nulls":19
       },
       {
         "name":"two",
