@@ -34,7 +34,6 @@ public class WisconsinNumberGenerator extends WisconsinGenerator{
             return Long.MAX_VALUE;
         }
         long result;
-        //if(field.getDomain()== null){//no domain provided==> use cardinality and Jim Gray's algo
             if(field.getOrder()== Order.order.RANDOM)
                 result = rand(seed, schema.getCardinality());
             else
@@ -49,11 +48,6 @@ public class WisconsinNumberGenerator extends WisconsinGenerator{
                 result = result*2+1;
             }
             return result;
-       // }
-       // else{//domain has been provided
-
-        //}
-        //return Long.MAX_VALUE;
     }
 
 }

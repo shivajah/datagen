@@ -1,11 +1,11 @@
 [
   {
     "dataset": {
-      "name": "ONEMILTUP1",
+      "name": "test",
       "cardinality":10
     },
     "file":{
-      "name":"testzz.adm",
+      "name":"test.adm",
       "partitions":1
     },
     "fields":[
@@ -27,7 +27,7 @@
         "optional":false,
         "missings":0,
         "nullable":false,
-        "nulls":0
+        "nulls":5
       },
       {
         "name":"two",

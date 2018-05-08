@@ -58,14 +58,14 @@ public abstract class WisconsinGenerator {
         return val;
     }
 
-    private int nextNullOrMissing(int i,int numRemnullOrMissing){
-        if(numRemnullOrMissing<=0){
-            return schema.getCardinality()*2;
+    private int nextNullOrMissing(int i,int numRemnullOrMissing) {
+    if(numRemnullOrMissing !=0 && numRemnullOrMissing <=schema.getCardinality()) {
+        int delta = ((schema.getCardinality()-i) / numRemnullOrMissing)-1;
+        if (i + delta <= schema.getCardinality() - 1) {
+            return i + delta;
         }
-        int max=schema.getCardinality()/numRemnullOrMissing;
-        if(i>max && max*2<=schema.getCardinality()-1)
-            max = max*2;
-        return rand.nextInt(max+1-i)+i;
+    }
+        return schema.getCardinality()*2;
     }
     private void decreaseNulls(){
         schema.getFields().get(fieldId).setNulls(schema.getFields().get(fieldId).getNulls()-1);

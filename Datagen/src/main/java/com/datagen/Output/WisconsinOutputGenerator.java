@@ -81,7 +81,7 @@ public class WisconsinOutputGenerator {
             executorService.submit(() -> {
 
                 for (int id = executorsToStartAndEnd.get(readerId).getKey();
-                     id <= executorsToStartAndEnd.get(readerId).getValue(); id++) {
+                     id < executorsToStartAndEnd.get(readerId).getValue(); id++) {
                     long size = 0;
                     String record = "{";
 
@@ -108,7 +108,7 @@ public class WisconsinOutputGenerator {
 
                     }
                     record = record + "}\n";
-                    //System.out.println(record);
+                    System.out.println(record);
                     write(record,readerId);
                     if (size > maxRecordLength) {
                         maxRecordLength = size;
